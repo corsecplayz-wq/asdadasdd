@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "keymacro",
+  "version": "${version}",
+  "name": "Key Macro",
+  "description": "Run rapid multi-key sequences from an in-game menu.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.keymacro.KeyMacroMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
